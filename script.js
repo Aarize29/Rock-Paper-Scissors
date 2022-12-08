@@ -1,7 +1,7 @@
 let audioTurn = new Audio("bing.mpeg")
 const totalScore = { computerScore: 0, playerScore: 0 }
 
-
+//Game Function
 function getComputerChoice() {
   const rpsChoice = ['Rock', 'Paper', 'Scissors']
   const randomNumber = Math.floor(Math.random() * 3)
